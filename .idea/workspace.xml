@@ -7,6 +7,35 @@
       <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customerapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customerapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customerapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customerapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customerapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customerapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customerapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orderapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orderapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orderapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orderapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orderapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orderapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orderapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurantapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurantapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurantapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurantapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurantapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurantapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurantapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodexpress/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodexpress/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodexpress/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodexpress/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodexpress/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +111,7 @@
       <workItem from="1783138432611" duration="1895000" />
       <workItem from="1783314465504" duration="4462000" />
       <workItem from="1783874163409" duration="1966000" />
-      <workItem from="1783919240614" duration="3382000" />
+      <workItem from="1783919240614" duration="4141000" />
     </task>
     <servers />
   </component>
