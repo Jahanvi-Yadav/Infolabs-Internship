@@ -7,33 +7,7 @@
       <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Bookapp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Bookapp/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Bookapp/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Bookapp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Bookapp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Bookapp/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Bookapp/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Issueapp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Issueapp/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Issueapp/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Issueapp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Issueapp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Issueapp/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Issueapp/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Studentapp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Studentapp/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Studentapp/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Studentapp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Studentapp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Studentapp/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/Studentapp/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/readworld/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/readworld/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/readworld/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/readworld/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-07-2026/readworld/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +83,7 @@
       <workItem from="1783138432611" duration="1895000" />
       <workItem from="1783314465504" duration="4462000" />
       <workItem from="1783874163409" duration="1966000" />
-      <workItem from="1783919240614" duration="9661000" />
+      <workItem from="1783919240614" duration="10835000" />
     </task>
     <servers />
   </component>
