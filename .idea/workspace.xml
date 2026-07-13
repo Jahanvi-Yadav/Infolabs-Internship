@@ -2,30 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60ca266f-c67b-4cf8-8595-4e5fe774f15e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject-Infolabs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/python3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/venvlauncher.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/pyvenv.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment-1- Infolabs/cricket_dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment-1- Infolabs/online_banking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2-BOOKMYSHOW/BookMyShow_Movie_Dictionary_Assignment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task1-3rd-July/age_classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task1-3rd-July/balance_checker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task1-3rd-July/greeting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task1-3rd-July/ticket_price.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2-4th-July/practice1_dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2-4th-July/practice2_dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2-4th-July/practice3_dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2-4th-July/practice4_dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/hospitalproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonProject-Infolabs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject-Infolabs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment-1- Infolabs/cricket_dictionary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment-1- Infolabs/online_banking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2-BOOKMYSHOW/BookMyShow_Movie_Dictionary_Assignment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookMyShow_Movie_Dictionary_Assignment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/age_classifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/balance_checker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cricket_dictionary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greeting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_banking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1_dictionary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice2_dictionary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice3_dictionary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice4_dictionary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket_price.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,9 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/jahan/PycharmProjects/PythonProject",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,23 +99,13 @@
       <updated>1783138431572</updated>
       <workItem from="1783138432611" duration="1895000" />
       <workItem from="1783314465504" duration="4462000" />
-      <workItem from="1783874163409" duration="294000" />
+      <workItem from="1783874163409" duration="1966000" />
+      <workItem from="1783919240614" duration="1396000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject_Infolabs$greeting.coverage" NAME="greeting Coverage Results" MODIFIED="1783316804335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task1-3rd-July" />
