@@ -8,7 +8,6 @@
       <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/06-07-2026/hospitalproject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-07-2026/educationproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/08-07-2026/educationproject/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <workItem from="1783138432611" duration="1895000" />
       <workItem from="1783314465504" duration="4462000" />
       <workItem from="1783874163409" duration="1966000" />
-      <workItem from="1783919240614" duration="29120000" />
+      <workItem from="1783919240614" duration="29544000" />
     </task>
     <servers />
   </component>
