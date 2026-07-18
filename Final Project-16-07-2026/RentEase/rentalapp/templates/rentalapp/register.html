@@ -1,0 +1,105 @@
+{% extends 'rentalapp/base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+
+            <div class="card shadow">
+
+                <div class="card-header bg-primary text-white">
+                    <h3>Tenant Registration</h3>
+                </div>
+
+                <div class="card-body">
+
+                    <form method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" name="full_name" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Phone Number</label>
+                            <input type="text" name="phone" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Address</label>
+                            <textarea name="address" class="form-control" rows="3" required></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" name="password" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Occupation</label>
+                            <input type="text" name="occupation" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Family Members</label>
+                            <input type="number" name="family_members" class="form-control" value="1" min="1">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Country</label>
+                            <select name="country" class="form-control">
+                                {% for country in countries %}
+                                <option value="{{ country.id }}">{{ country.country_name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">State</label>
+                            <select name="state" class="form-control">
+                                {% for state in states %}
+                                <option value="{{ state.id }}">{{ state.state_name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">City</label>
+                            <select name="city" class="form-control">
+                                {% for city in cities %}
+                                <option value="{{ city.id }}">{{ city.city_name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Profile Image</label>
+                            <input type="file" name="profile_image" class="form-control">
+                        </div>
+
+                        <button type="submit" class="btn btn-success">
+                            Register
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

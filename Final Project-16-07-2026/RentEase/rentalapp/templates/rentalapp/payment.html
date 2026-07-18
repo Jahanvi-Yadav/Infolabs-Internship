@@ -1,0 +1,52 @@
+{% extends 'rentalapp/base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <div class="card shadow">
+
+        <div class="card-header bg-success text-white">
+            <h3>Payment</h3>
+        </div>
+
+        <div class="card-body">
+
+            <h4>{{ booking.property.title }}</h4>
+
+            <p><strong>Tenant:</strong> {{ booking.tenant.full_name }}</p>
+
+            <p><strong>Total Amount:</strong> ₹ {{ booking.total_amount }}</p>
+
+            <hr>
+
+<form method="POST">
+    {% csrf_token %}
+
+    <div class="mb-3">
+        <label class="form-label">Payment Method</label>
+
+        <select name="payment_method" class="form-control">
+
+            <option value="UPI">UPI</option>
+            <option value="Card">Card</option>
+            <option value="Net Banking">Net Banking</option>
+            <option value="Cash">Cash</option>
+
+        </select>
+
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        Pay Now
+    </button>
+
+</form>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

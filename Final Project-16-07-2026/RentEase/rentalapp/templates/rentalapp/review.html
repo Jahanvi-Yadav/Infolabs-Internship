@@ -1,0 +1,58 @@
+{% extends 'rentalapp/base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <div class="card shadow">
+
+        <div class="card-header bg-warning">
+            <h3>Rate Your Property</h3>
+        </div>
+
+        <div class="card-body">
+
+            <h4>{{ booking.property.title }}</h4>
+
+            <form method="POST">
+                {% csrf_token %}
+
+                <div class="mb-3">
+                    <label>Rating</label>
+
+                    <select name="rating" class="form-control">
+
+                        <option value="5">★★★★★</option>
+                        <option value="4">★★★★</option>
+                        <option value="3">★★★</option>
+                        <option value="2">★★</option>
+                        <option value="1">★</option>
+
+                    </select>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label>Review</label>
+
+                    <textarea
+                        name="review"
+                        class="form-control"
+                        rows="5"></textarea>
+
+                </div>
+
+                <button class="btn btn-warning">
+                    Submit Review
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

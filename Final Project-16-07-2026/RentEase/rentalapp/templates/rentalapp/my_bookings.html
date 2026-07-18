@@ -1,0 +1,53 @@
+{% extends 'rentalapp/base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <h2 class="mb-4">My Bookings</h2>
+
+    {% if bookings %}
+
+    <table class="table table-bordered table-hover">
+
+        <thead class="table-dark">
+            <tr>
+                <th>Property</th>
+                <th>Check In</th>
+                <th>Check Out</th>
+                <th>Total Amount</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+        {% for booking in bookings %}
+
+        <tr>
+
+            <td>{{ booking.property.title }}</td>
+            <td>{{ booking.check_in }}</td>
+            <td>{{ booking.check_out }}</td>
+            <td>₹ {{ booking.total_amount }}</td>
+            <td>{{ booking.booking_status }}</td>
+
+        </tr>
+
+        {% endfor %}
+
+        </tbody>
+
+    </table>
+
+    {% else %}
+
+    <div class="alert alert-info">
+        You have not booked any property yet.
+    </div>
+
+    {% endif %}
+
+</div>
+
+{% endblock %}

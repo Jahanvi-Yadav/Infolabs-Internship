@@ -1,0 +1,133 @@
+{% extends 'rentalapp/base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <div class="card shadow-lg border-0">
+
+        <div class="row g-0">
+
+            <!-- Property Image -->
+            <div class="col-md-6">
+
+                <img src="{{ property.property_image.url }}"
+                     class="img-fluid rounded-start w-100"
+                     style="height:550px; object-fit:cover;"
+                     alt="Property Image">
+
+            </div>
+
+            <!-- Property Details -->
+            <div class="col-md-6">
+
+                <div class="card-body p-4">
+
+                    <h2 class="fw-bold">{{ property.title }}</h2>
+
+                    <span class="badge bg-success fs-6 mb-3">
+                        {{ property.status }}
+                    </span>
+
+                    <h3 class="text-success mb-4">
+                        ₹ {{ property.monthly_rent }}/Month
+                    </h3>
+
+                    <table class="table table-bordered">
+
+                        <tr>
+                            <th width="40%">Category</th>
+                            <td>{{ property.category }}</td>
+                        </tr>
+
+                        <tr>
+                            <th>Property Type</th>
+                            <td>{{ property.property_type }}</td>
+                        </tr>
+
+                        <tr>
+                            <th>Bedrooms</th>
+                            <td>{{ property.bedrooms }}</td>
+                        </tr>
+
+                        <tr>
+                            <th>Bathrooms</th>
+                            <td>{{ property.bathrooms }}</td>
+                        </tr>
+
+                        <tr>
+                            <th>Area</th>
+                            <td>{{ property.area }} sq.ft.</td>
+                        </tr>
+
+                        <tr>
+                            <th>Furnishing</th>
+                            <td>{{ property.furnishing }}</td>
+                        </tr>
+
+                        <tr>
+                            <th>Security Deposit</th>
+                            <td>₹ {{ property.security_deposit }}</td>
+                        </tr>
+
+                        <tr>
+                            <th>Available From</th>
+                            <td>{{ property.available_from }}</td>
+                        </tr>
+
+                    </table>
+
+                    <h5 class="mt-4">📍 Address</h5>
+
+                    <p>
+
+                        {{ property.address }}<br>
+
+                        {{ property.city }},
+                        {{ property.state }},
+                        {{ property.country }}
+
+                    </p>
+
+                    <h5>Description</h5>
+
+                    <p class="text-muted">
+                        {{ property.description }}
+                    </p>
+
+                    <div class="d-grid gap-2 mt-4">
+
+                        <a href="{% url 'booking' property.id %}"
+                           class="btn btn-success btn-lg">
+
+                            📅 Book Now
+
+                        </a>
+
+                        <a href="{% url 'add_to_wishlist' property.id %}"
+                           class="btn btn-warning btn-lg">
+
+                            ❤️ Add to Wishlist
+
+                        </a>
+
+                        <a href="{% url 'properties' %}"
+                           class="btn btn-secondary">
+
+                            ⬅ Back to Properties
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

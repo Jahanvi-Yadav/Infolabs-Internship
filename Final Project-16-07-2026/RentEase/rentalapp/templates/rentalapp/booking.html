@@ -1,0 +1,59 @@
+{% extends 'rentalapp/base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-8">
+
+            <div class="card shadow">
+
+                <div class="card-header bg-primary text-white">
+                    <h3>Book Property</h3>
+                </div>
+
+                <div class="card-body">
+
+                    <h4>{{ property.title }}</h4>
+
+                    <p><strong>Rent:</strong> ₹{{ property.monthly_rent }}</p>
+
+                    <hr>
+{% if error %}
+<div class="alert alert-danger">
+    {{ error }}
+</div>
+{% endif %}
+
+<form method="POST">
+    {% csrf_token %}
+
+    <div class="mb-3">
+        <label>Check In</label>
+        <input type="date" name="check_in" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+        <label>Check Out</label>
+        <input type="date" name="check_out" class="form-control" required>
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        Confirm Booking
+    </button>
+
+</form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
